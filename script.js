@@ -1,11 +1,12 @@
 const student = {
 	name:"John",
-	age:24,
-    city:"jaipur",
 }
 
 function getKeys(student){
 	return Object.keys(student)
 }
 
-console.log(getKeys(student))
+const studentWithMultipleProps = { name: "John", age: 20, city: "Delhi" };
+
+console.log(getKeys(student)); // Output: ["name"]
+console.log(getKeys(studentWithMultipleProps)); // Output: ["name", "age", "city"]
