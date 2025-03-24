@@ -1,10 +1,9 @@
-eval()
 const student = {
-  name: "John",
-};
-
-function getKeys(obj) {
-  return Object.keys(obj);
+	name:"John",
 }
 
-console.log(getKeys(student)); 
+function getKeys(student){
+	return Objects.keys(student)
+}
+
+consle.log(getKeys(student))
