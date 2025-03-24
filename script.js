@@ -1,9 +1,11 @@
 const student = {
 	name:"John",
+	age:24,
+    city:"jaipur",
 }
 
 function getKeys(student){
-	return Objects.keys(student)
+	return Object.keys(student)
 }
 
-consle.log(getKeys(student))
+console.log(getKeys(student))
